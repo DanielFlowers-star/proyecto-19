@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f6f7f8;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.add-lane {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.add-lane input {
+  padding: 10px;
+  width: 250px;
+}
+
+.add-lane button {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.lanes {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.lane {
+  background: white;
+  border-radius: 8px;
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.lane-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.post {
+  border-bottom: 1px solid #eee;
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+.post:hover {
+  background: #f0f0f0;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
